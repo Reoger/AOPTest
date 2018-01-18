@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.cm.aoptest.MainActivity">
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="检查权限"
+    android:id="@+id/check_permission"/>
+
+    <Button
+        android:id="@+id/check_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查是否有网络" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试log"
+        android:id="@+id/check_log"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="log测试二"
+        android:id="@+id/log_test"/>
+</LinearLayout>
